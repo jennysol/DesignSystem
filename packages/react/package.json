@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts --fix"
   },
@@ -15,9 +15,12 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@studies-ui/ts-config": "*",
     "@studies-iu/tokens": "*",
     "@studies-ui/eslint-config": "*",
+    "@studies-ui/ts-config": "*",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "react": "^18.2.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
   }
