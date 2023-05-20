@@ -1,5 +1,5 @@
 import { createStitches, defaultThemeMap } from '@stitches/react'
-import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from '@studies-iu/tokens'
+import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from '@studies-ui/tokens'
 
 export const { 
     styled, 
