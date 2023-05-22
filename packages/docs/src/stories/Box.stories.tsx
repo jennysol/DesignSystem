@@ -10,7 +10,14 @@ export default {
       <Text>Testando elemento box</Text>
       </>
     )
-  }
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {
