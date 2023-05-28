@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "storybook build"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.19.3",
+    "@changesets/cli": "^2.26.1",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^7.0.11",
     "@storybook/addon-interactions": "^6.5.12",
