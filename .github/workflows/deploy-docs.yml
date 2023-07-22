@@ -25,4 +25,4 @@ jobs:
         working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
-          GH_TOKEN: GH_TOKEN: MyCompany:${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: MyCompany:${{ secrets.GITHUB_TOKEN }}
